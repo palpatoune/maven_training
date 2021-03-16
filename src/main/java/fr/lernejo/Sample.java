@@ -2,6 +2,7 @@ package fr.lernejo;
 
 import java.util.function.BiFunction;
 
+
 public class Sample {
 
     public int op(Operation op, int a, int b) {
@@ -18,5 +19,6 @@ public class Sample {
         Operation(BiFunction<Integer, Integer, Integer> func) {
             this.func = func;
         }
+
     }
 }
